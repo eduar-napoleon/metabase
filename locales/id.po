@@ -3898,7 +3898,7 @@ msgstr "Panda sedih sedih, kesalahan lexing terdeteksi"
 #: frontend/src/metabase/lib/formatting/time.ts:29
 msgid "{0} second"
 msgid_plural "{0} seconds"
-msgstr[0] "{0} Kedua"
+msgstr[0] "{0} detik"
 
 #: frontend/src/metabase/lib/formatting/time.ts:25
 msgid "{0} minute"
@@ -4368,7 +4368,7 @@ msgstr "Seperti Januari 2016"
 
 #: frontend/src/metabase-lib/v1/parameters/constants.ts:79
 msgid "Quarter and Year"
-msgstr "Seperempat dan tahun"
+msgstr "Kuartal dan tahun"
 
 #: frontend/src/metabase-lib/parameters/constants.ts:80
 msgid "Like Q1, 2016"
@@ -8159,7 +8159,7 @@ msgstr "Bulan tahun"
 
 #: frontend/src/metabase-lib/Dimension.ts:1781 metabase/api/table.clj:156
 msgid "Quarter of Year"
-msgstr "Seperempat tahun"
+msgstr "Kuartal tahun"
 
 #: frontend/src/metabase-lib/v1/Dimension.ts:1476 metabase/api/table.clj:233
 #: metabase/lib/binning.cljc:94
@@ -10908,7 +10908,7 @@ msgstr "Transaksi per negara"
 
 #: resources/automagic_dashboards/table/GenericTable.yaml
 msgid "Join date by quarter of the year"
-msgstr "Bergabung dengan tanggal seperempat tahun"
+msgstr "Bergabung dengan tanggal Kuartal tahun"
 
 #: resources/automagic_dashboards/table/EventTable.yaml
 msgid "Events per hour of the day"
@@ -10991,7 +10991,7 @@ msgstr "Bagaimana [[GenericNumber]] didistribusikan"
 
 #: resources/automagic_dashboards/table/TransactionTable/Seasonality.yaml
 msgid "[[Timestamp]] by quarter of year"
-msgstr "[[Timestamp]] pada seperempat tahun"
+msgstr "[[Timestamp]] pada Kuartal tahun"
 
 #: resources/automagic_dashboards/table/EventTable.yaml
 msgid "Events per country"
@@ -11035,7 +11035,7 @@ msgstr "Total pesanan per sumber"
 
 #: resources/automagic_dashboards/field/DateTime.yaml
 msgid "[[this]] by quarter of the year"
-msgstr "[[this]] pada seperempat tahun"
+msgstr "[[this]] pada Kuartal tahun"
 
 #: resources/automagic_dashboards/table/EventTable.yaml
 msgid "Events per [[GenericCategoryMedium]]"
@@ -11122,7 +11122,7 @@ msgstr "[[this]] oleh [[GenericNumber]]"
 
 #: resources/automagic_dashboards/table/GenericTable.yaml
 msgid "Quarters when [[this.short-name]] were added"
-msgstr "Seperempat ketika [[this.short-name]] ditambahkan"
+msgstr "Kuartal ketika [[this.short-name]] ditambahkan"
 
 #: resources/automagic_dashboards/table/UserTable.yaml
 #: resources/automagic_dashboards/table/GenericTable.yaml
@@ -11704,7 +11704,7 @@ msgstr "[[this]] per wilayah"
 #: resources/automagic_dashboards/table/EventTable.yaml
 #: resources/automagic_dashboards/table/GenericTable.yaml
 msgid "[[Timestamp]] by quarter of the year"
-msgstr "[[Timestamp]] pada seperempat tahun"
+msgstr "[[Timestamp]] pada Kuartal tahun"
 
 #: resources/automagic_dashboards/metric/GenericMetric.yaml
 msgid "How its distributed across time and other categories."
@@ -12185,24 +12185,24 @@ msgstr "Besok"
 
 #: metabase/lib/temporal_bucket.cljc:74
 msgid "This {0}"
-msgstr "Ini {0}"
+msgstr "{0} Ini"
 
 #: metabase/lib/temporal_bucket.cljc:77 metabase/models/params/shared.cljc:84
 msgid "Next {0}"
-msgstr "Selanjutnya {0}"
+msgstr "{0} Selanjutnya"
 
 #: frontend/src/metabase/query_builder/components/CompareAggregations/components/OffsetPresets/OffsetPresets.tsx:80
 #: metabase/lib/temporal_bucket.cljc:80 metabase/models/params/shared.cljc:82
 msgid "Previous {0}"
-msgstr "Sebelumnya {0}"
+msgstr "{0} Sebelumnya"
 
 #: metabase/lib/temporal_bucket.cljc:81 metabase/models/params/shared.cljc:83
 msgid "Previous {0} {1}"
-msgstr "Sebelumnya {0} {1}"
+msgstr "{0} {1} Sebelumnya"
 
 #: metabase/lib/temporal_bucket.cljc:82 metabase/models/params/shared.cljc:85
 msgid "Next {0} {1}"
-msgstr "Selanjutnya {0} {1}"
+msgstr "{0} {1} Selanjutnya"
 
 #: metabase/lib/temporal_bucket.cljc:97
 msgid "Now"
@@ -12269,7 +12269,7 @@ msgstr[0] "Bulan tahun"
 #: metabase/lib/temporal_bucket.cljc:48
 msgid "Quarter of year"
 msgid_plural "Quarters of year"
-msgstr[0] "Seperempat tahun"
+msgstr[0] "Kuartal tahun"
 
 #: frontend/src/metabase/parameters/utils/formatting.ts:84
 msgid "{0} selection"
@@ -12866,7 +12866,7 @@ msgstr "Ini lihat lebih dekat pada [[this]] dari waktu ke waktu"
 
 #: resources/automagic_dashboards/table/GenericTable.yaml
 msgid "[[CreateDate]] by quarter of the year"
-msgstr "[[CreateDate]] pada seperempat tahun"
+msgstr "[[CreateDate]] pada Kuartal tahun"
 
 #: frontend/src/metabase/admin/people/components/PeopleListRow.jsx:112
 msgid "Edit user"
@@ -22818,7 +22818,7 @@ msgstr "Bulan dalam setahun..."
 
 #: frontend/src/metabase/admin/datamodel/components/filters/pickers/DatePicker/ExcludeDatePicker.tsx:61
 msgid "Quarters of the year..."
-msgstr "Seperempat tahun..."
+msgstr "Kuartal tahun..."
 
 #: frontend/src/metabase/admin/datamodel/components/filters/pickers/DatePicker/ExcludeDatePicker.tsx:68
 msgid "Hours of the day..."
@@ -23359,7 +23359,7 @@ msgstr[0] "Bulan{0}"
 #: frontend/src/metabase-lib/queries/utils/query-time.js:243
 msgid "Quarter{0}"
 msgid_plural "Quarters{0}"
-msgstr[0] "Seperempat{0}"
+msgstr[0] "Kuartal{0}"
 
 #: frontend/src/metabase-lib/queries/utils/query-time.js:245
 msgid "Year{0}"
@@ -29877,7 +29877,7 @@ msgstr "Memasuki layar penuh"
 
 #: frontend/src/metabase/visualizations/visualizations/SmartScalar/SmartScalar.jsx:149
 msgid "previous {0}"
-msgstr "sebelumnya {0}"
+msgstr "{0} sebelumnya"
 
 #: frontend/src/metabase/visualizations/visualizations/SmartScalar/SmartScalar.jsx:164
 #: frontend/src/metabase/visualizations/visualizations/SmartScalar/SmartScalar.jsx:170
@@ -30963,7 +30963,7 @@ msgstr "bulan yang lalu"
 
 #: frontend/src/metabase/visualizations/visualizations/SmartScalar/utils.ts:408
 msgid "quarters ago"
-msgstr "seperempat yang lalu"
+msgstr "Kuartal yang lalu"
 
 #: frontend/src/metabase/visualizations/visualizations/SmartScalar/utils.ts:410
 msgid "years ago"
@@ -32639,7 +32639,7 @@ msgstr "Token ini sepertinya tidak valid. Periksa kembali, lalu hubungi dukungan
 
 #: frontend/src/metabase/setup/components/UserForm/UserForm.tsx:120
 msgid "Saving"
-msgstr "Penghematan"
+msgstr "Menyimpan"
 
 #: frontend/src/metabase/status/components/FileUploadStatusLarge/FileUploadStatusLarge.tsx:100
 msgid "Data replaced in {0}"
@@ -33867,15 +33867,15 @@ msgstr "Bulan Ulang Tahun"
 
 #: frontend/src/metabase-lib/v1/expressions/helper-text-strings.ts:468
 msgid "Returns a string like \"Q1\", given the quarter number"
-msgstr "Mengembalikan string seperti \"Q1\", berdasarkan nomor seperempat"
+msgstr "Mengembalikan string seperti \"Q1\", berdasarkan nomor Kuartal"
 
 #: frontend/src/metabase-lib/v1/expressions/helper-text-strings.ts:471
 msgid "quarterNumber"
-msgstr "nomor seperempat"
+msgstr "nomor Kuartal"
 
 #: frontend/src/metabase-lib/v1/expressions/helper-text-strings.ts:472
 msgid "Column or expression giving the number of a quarter of the year, 1 to 4."
-msgstr "Kolom atau ekspresi yang memberi nomor seperempat tahun, 1 sampai 4."
+msgstr "Kolom atau ekspresi yang memberi nomor Kuartal tahun, 1 sampai 4."
 
 #: frontend/src/metabase-lib/v1/expressions/helper-text-strings.ts:473
 msgid "Fiscal Quarter"

@@ -71,15 +71,15 @@
     (cond
       (zero? n) (if (= unit :day)
                   (i18n/tru "Today")
-                  (i18n/tru "This {0}" (describe-temporal-unit unit)))
+                  (i18n/tru "{0} Berjalan" (describe-temporal-unit unit)))
       (= n 1)   (if (= unit :day)
                   (i18n/tru "Tomorrow")
-                  (i18n/tru "Next {0}" (describe-temporal-unit unit)))
+                  (i18n/tru "{0} Berikutnya" (describe-temporal-unit unit)))
       (= n -1)  (if (= unit :day)
                   (i18n/tru "Yesterday")
-                  (i18n/tru "Previous {0}" (describe-temporal-unit unit)))
-      (neg? n)  (i18n/tru "Previous {0} {1}" (abs n) (describe-temporal-unit (abs n) unit))
-      (pos? n)  (i18n/tru "Next {0} {1}" n (describe-temporal-unit n unit)))))
+                  (i18n/tru "{0} Sebelumnya" (describe-temporal-unit unit)))
+      (neg? n)  (i18n/tru "{0} {1} Sebelumnya" (abs n) (describe-temporal-unit (abs n) unit))
+      (pos? n)  (i18n/tru "{0} {1} Berikutnya" n (describe-temporal-unit n unit)))))
 
 (mu/defn describe-relative-datetime :- ::lib.schema.common/non-blank-string
   "Get a translated description of a relative datetime interval, ported from
