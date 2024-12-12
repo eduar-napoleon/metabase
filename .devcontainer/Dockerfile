@@ -9,6 +9,10 @@ RUN apt-get update && \
     apt-get update && \
     apt-get install -y docker-ce-cli docker-compose
 
+# Add the default user to the Docker group to avoid sudo
+RUN groupadd -g 999 docker && \
+    usermod -aG docker vscode
+
 # Clean up
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
