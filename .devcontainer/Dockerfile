@@ -1,11 +1,16 @@
-FROM mcr.microsoft.com/vscode/devcontainers/java:11
+# Base image with Ubuntu
+FROM mcr.microsoft.com/devcontainers/base:ubuntu
 
-# Set up nodesource, install node, yarn, fontconfig for static viz, rlwrap for dev ergonomics
+# Install Docker CLI and Docker Compose
+RUN apt-get update && \
+    apt-get install -y apt-transport-https ca-certificates curl software-properties-common && \
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add - && \
+    add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" && \
+    apt-get update && \
+    apt-get install -y docker-ce-cli docker-compose
 
-RUN ( curl -fsSL https://deb.nodesource.com/setup_18.x | bash ) \
-  && export DEBIAN_FRONTEND=noninteractive \
-  && apt-key adv --refresh-keys --keyserver keyserver.ubuntu.com \
-  && apt-get update && apt-get -y install --no-install-recommends nodejs yarn rlwrap fontconfig
+# Clean up
+RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# install Clojure
-RUN curl https://download.clojure.org/install/linux-install-1.11.1.1262.sh | bash
+# Verify installation
+RUN docker --version && docker-compose --version
